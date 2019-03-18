@@ -9,8 +9,9 @@ class Gadgets {
         this.catalog = new Catalog(this.driver);
     }
 
-    async page(){
+    async page() {
         await this.driver.get('https://moskva.beeline.ru/shop/catalog/gadzhety/umnye-chasy-i-braslety/');
+        await this.catalog.waitFor();
         await screenshotWithCircle(this.driver, 'Страница Beeline.ru/shop/catalog/gadzhety/umnye-chasy-i-braslety/');
     }
 
@@ -19,10 +20,10 @@ class Gadgets {
      * @param product - элемент вебдрайвера; продукт каталога
      * @returns {Promise<number>}
      */
-    async getProductPrice(product){
+    async getProductPrice(product) {
         let price = await product.findElement(By.xpath(".//div[@class='shop-item_price_item-current']")).getText();
         // обрезаем все пробелы и символ ₽
-        price = price.replace(/\s[₽]/,'').replace(/\s/, '');
+        price = price.replace(/\s[₽]/, '').replace(/\s/, '');
 
         // переводим строку в тип number
         let intPrice = Number(price);
@@ -97,7 +98,7 @@ class Gadgets {
      * @param title - название продукта из каталога
      * @returns {Promise<void>}
      */
-    async chooseProductByTitle(title){
+    async chooseProductByTitle(title) {
         let element = await this.driver.wait(
             until.elementLocated(
                 By.xpath(`//*[contains(text(),'${title}')]/ancestor::div[@class='shop-item-wrapper']`)),
@@ -125,7 +126,7 @@ class Gadgets {
      * @param status - string: Купить/В корзине
      * @returns {Promise<void>}
      */
-    async checkButtonStatus(element, status){
+    async checkButtonStatus(element, status) {
         let button = await element.findElement(By.xpath(".//button"));
         let statusButton = await button.getText();
 
@@ -139,14 +140,16 @@ class Gadgets {
      * @param countProducts - number; ожидаемое количество продуктов в каталоге
      * @returns {Promise<void>}
      */
-    async checkCountsElementsOnPage(countProducts){
-        let elements = await this.catalog.getAllProducts().length;
+    async checkCountsElementsOnPage(countProducts) {
+        let elements = await this.catalog.getAllProducts();
+        let countOfElements = elements.length;
+        console.log('================== Количество товаов в каталоге: ' + countOfElements);
 
         const checkWithAllureStep = allure.createStep("Проверка количества продуктов на странице", (expectCountProduct, actualCountProduct) => {
             expect(expectCountProduct).to.equal(actualCountProduct)
         });
 
-        checkWithAllureStep(countProducts, elements)
+        checkWithAllureStep(countProducts, countOfElements)
     }
 
     /**
@@ -155,7 +158,7 @@ class Gadgets {
      * @returns {Promise<string>}
      */
     async checkURL(addr) {
-        screenshotWithCircle(this.driver,'Проверка редиректа в корзину');
+        screenshotWithCircle(this.driver, 'Проверка редиректа в корзину');
         return await this.driver.getCurrentUrl()
             .then((currentURL) => {
                 expect(currentURL).to.equal(addr, 'Кнопка покупки некорректно редиректит')

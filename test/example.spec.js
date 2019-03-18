@@ -34,8 +34,8 @@ describeWithBrowser(
             // ──║║─║║║║╔═╗║╔╗║╔══╝
             // ──║║─║╚╝║╚═╝║║║║║
             // ──╚╝─╚══╩═══╩╝╚╩╝
-            it('Переход в раздел гаджетов из основного меню', async () => {
-
+            xit('Переход в раздел гаджетов из основного меню', async () => {
+                console.log('======== Переход в раздел гаджетов из основного меню ========');
                 const startPage = new StartPage(browser);//создаем экзэмпляр класса страницы
                 await startPage.gadgetsMenuButton();//вызов функции перехода к каталогу гаджетов
 
@@ -44,7 +44,8 @@ describeWithBrowser(
 
             });
 
-            it('Проверка редиректа в корзину', async () => {
+            xit('Проверка редиректа в корзину', async () => {
+                console.log("Проверка редиректа в корзину");
                 const gadgetsPage = new Gadgets(browser);
                 await gadgetsPage.page();
 
@@ -57,7 +58,8 @@ describeWithBrowser(
                 await gadgetsPage.checkURL('https://moskva.beeline.ru/shop/basket/#?step=orderList');
             });
 
-            it('Добавление одного гаджета в корзину', async () => {
+            xit('Добавление одного гаджета в корзину', async () => {
+                console.log('============== Добавление одного гаджета в корзину =================');
                 const gadgetsPage = new Gadgets(browser);
                 await gadgetsPage.page();
 
@@ -72,7 +74,8 @@ describeWithBrowser(
                 await basketPage.checkPresence(nameOfProduct);
 
             });
-            it('Добавление двух гаджетов в корзину', async () => {
+            xit('Добавление двух гаджетов в корзину', async () => {
+                console.log("==================================== Добавление двух гаджетов в корзину ====================");
                 const gadgetsPage = new Gadgets(browser);
                 await gadgetsPage.page();
 
@@ -97,6 +100,7 @@ describeWithBrowser(
                 await basketPage.checkPresence(nameOfProduct);
             });
             it('Проверка количества отображаемых гаджетов на странице', async () => {
+                console.log('============== Проверка количества отображаемых гаджетов на странице ==========');
                 const gadgetsPage = new Gadgets(browser);
                 await gadgetsPage.page();
 
@@ -104,7 +108,8 @@ describeWithBrowser(
                 await gadgetsPage.checkCountsElementsOnPage(24)
             });
 
-            it("Добавленный в корзину гаджет имеет название кнопки - 'В корзине'", async() => {
+            xit("Добавленный в корзину гаджет имеет название кнопки - 'В корзине'", async() => {
+                console.log("======== Добавленный в корзину гаджет имеет название кнопки - 'В корзине' =====");
                 const gadgetsPage = new Gadgets(browser);
                 await gadgetsPage.page();
 
@@ -124,7 +129,8 @@ describeWithBrowser(
 
 
             });
-            it("Оформление заказа с двумя гаджетами в корзине", async () => {
+            xit("Оформление заказа с двумя гаджетами в корзине", async () => {
+                console.log("==================== Оформление заказа с двумя гаджетами в корзине ==================");
                 const gadgetsPage = new Gadgets(browser);
                 await gadgetsPage.page();
 
@@ -150,7 +156,7 @@ describeWithBrowser(
 
             });
 
-            it('Проверка суммы добавленных товаров в корзину', async () => {
+            xit('Проверка суммы добавленных товаров в корзину', async () => {
                 console.log(' ================== Проверка суммы добавленных товаров в корзину ================');
                 const gadgetsPage = new Gadgets(browser);
                 await gadgetsPage.page();
@@ -177,7 +183,7 @@ describeWithBrowser(
                 await basketPage.checkSumOfProducts(priceOfProduct)
             });
 
-            it('Проверка суммы в корзине после удаления товара', async () => {
+            xit('Проверка суммы в корзине после удаления товара', async () => {
                 console.log(' ================== Проверка суммы в корзине после удаления товара ================');
                 const gadgetsPage = new Gadgets(browser);
                 await gadgetsPage.page();
