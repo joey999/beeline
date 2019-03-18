@@ -1,0 +1,81 @@
+[ {
+  "uid" : "c57d7e1ab6f120f7",
+  "name" : "Добавленный в корзину гаджет имеет название кнопки - 'В корзине'",
+  "time" : {
+    "start" : 1552853762429,
+    "stop" : 1552853762429,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f298300737407702",
+  "name" : "Проверка количества отображаемых гаджетов на странице",
+  "time" : {
+    "start" : 1552853762429,
+    "stop" : 1552853762429,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cc75ef96c6b6126d",
+  "name" : "Добавление одного гаджета в корзину",
+  "time" : {
+    "start" : 1552853762429,
+    "stop" : 1552853762429,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "50d3ab3fa013f341",
+  "name" : "Проверка редиректа в корзину",
+  "time" : {
+    "start" : 1552853762428,
+    "stop" : 1552853762428,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "867a8f2aa3b932f4",
+  "name" : "Оформление заказа с двумя гаджетами в корзине",
+  "time" : {
+    "start" : 1552853762429,
+    "stop" : 1552853784380,
+    "duration" : 21951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29949ae7c22ee46f",
+  "name" : "Переход в раздел гаджетов из основного меню",
+  "time" : {
+    "start" : 1552853762428,
+    "stop" : 1552853762428,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1e8de6b808ba1e2e",
+  "name" : "Проверка суммы добавленных товаров в корзину",
+  "time" : {
+    "start" : 1552853784380,
+    "stop" : 1552853790611,
+    "duration" : 6231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8d836cfef803ff7",
+  "name" : "Добавление двух гаджетов в корзину",
+  "time" : {
+    "start" : 1552853762429,
+    "stop" : 1552853762429,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

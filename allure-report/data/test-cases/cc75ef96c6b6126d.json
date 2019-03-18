@@ -1,0 +1,47 @@
+{
+  "uid" : "cc75ef96c6b6126d",
+  "name" : "Добавление одного гаджета в корзину",
+  "fullName" : "EShop B2C Example tests.Добавление одного гаджета в корзину",
+  "historyId" : "3164fbbae976c9f511e2ca002495d0dc",
+  "time" : {
+    "start" : 1552853762429,
+    "stop" : 1552853762429,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "testClass",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Добавление одного гаджета в корзину"
+  }, {
+    "name" : "package",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc75ef96c6b6126d.json",
+  "parameterValues" : [ ]
+}

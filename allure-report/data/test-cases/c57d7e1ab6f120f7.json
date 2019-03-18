@@ -1,0 +1,47 @@
+{
+  "uid" : "c57d7e1ab6f120f7",
+  "name" : "Добавленный в корзину гаджет имеет название кнопки - 'В корзине'",
+  "fullName" : "EShop B2C Example tests.Добавленный в корзину гаджет имеет название кнопки - 'В корзине'",
+  "historyId" : "36da38952d5c7c5501347876b01513af",
+  "time" : {
+    "start" : 1552853762429,
+    "stop" : 1552853762429,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "testClass",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Добавленный в корзину гаджет имеет название кнопки - 'В корзине'"
+  }, {
+    "name" : "package",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c57d7e1ab6f120f7.json",
+  "parameterValues" : [ ]
+}

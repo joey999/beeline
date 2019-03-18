@@ -1,0 +1,10 @@
+
+TODO:
+  @file:///Users/dmred/Desktop/ex/pro/chromedriver
+    ☐ // TODO(zachconrad): Use the olderShadowRoot API when available to check @file:///Users/dmred/Desktop/ex/pro/chromedriver#13244
+  @file:///Users/dmred/Desktop/ex/pro/pageObjects/Catalog.js
+    ☐ //TODO: написать методы для проверки всего на странице @file:///Users/dmred/Desktop/ex/pro/pageObjects/Catalog.js#183
+  @file:///Users/dmred/Desktop/ex/pro/pageObjects/FastBuy.js
+    ☐ //TODO: понять где это надо и исправить @file:///Users/dmred/Desktop/ex/pro/pageObjects/FastBuy.js#138
+  @file:///Users/dmred/Desktop/ex/pro/test/promo.spec.js
+    ☐ //TODO изучить все скидки и написать их тесты здесь @file:///Users/dmred/Desktop/ex/pro/test/promo.spec.js#1 @started(18-08-20 10:58)

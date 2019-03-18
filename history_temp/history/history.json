@@ -1,0 +1,100 @@
+{
+  "9dcb2ff0ed3c8705e47446af579c3712" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1dd8796bae3d2f78",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/dmred/Desktop/ex/pro/test/promo.spec.js)",
+      "time" : {
+        "start" : 1535632011014,
+        "stop" : 1535632011014,
+        "duration" : 0
+      }
+    } ]
+  },
+  "81997fac5098e434dff116010ef757e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b203112d246ece45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1539161455623,
+        "stop" : 1539161469501,
+        "duration" : 13878
+      }
+    } ]
+  },
+  "c54c2eb4dc1154ad1d93118bf1fe4891" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6abe1e106b35bc1b",
+      "status" : "failed",
+      "statusDetails" : "Неверный подсчет или отображение скидок: expected 142065 to equal '69990'",
+      "time" : {
+        "start" : 1535627315207,
+        "stop" : 1535627345295,
+        "duration" : 30088
+      }
+    } ]
+  },
+  "cf518cc2bb30f6660fc08a55572dee7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a19d7217e918c1cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1535638294188,
+        "stop" : 1535638325141,
+        "duration" : 30953
+      }
+    } ]
+  },
+  "2a2ca30a44b9baa6118da1074900d86b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f60e11d901dc921f",
+      "status" : "failed",
+      "statusDetails" : "Неверный подсчет или отображение скидок: expected 141465 to equal '69990'",
+      "time" : {
+        "start" : 1535627345295,
+        "stop" : 1535627390382,
+        "duration" : 45087
+      }
+    } ]
+  }
+}

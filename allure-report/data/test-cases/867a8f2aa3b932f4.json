@@ -1,0 +1,109 @@
+{
+  "uid" : "867a8f2aa3b932f4",
+  "name" : "Оформление заказа с двумя гаджетами в корзине",
+  "fullName" : "EShop B2C Example tests.Оформление заказа с двумя гаджетами в корзине",
+  "historyId" : "2f1004d58cb13ffc25d00df759f982af",
+  "time" : {
+    "start" : 1552853762429,
+    "stop" : 1552853784380,
+    "duration" : 21951
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "95379477a891f5e3",
+      "name" : "Новый каталог",
+      "source" : "95379477a891f5e3.png",
+      "type" : "image/png",
+      "size" : 571586
+    }, {
+      "uid" : "ee8c2743787f79eb",
+      "name" : "Страница Beeline.ru/shop/catalog/gadzhety/umnye-chasy-i-braslety/",
+      "source" : "ee8c2743787f79eb.png",
+      "type" : "image/png",
+      "size" : 217526
+    }, {
+      "uid" : "c5d9dd7d4c9e0a50",
+      "name" : "Скролл до выбранного товара",
+      "source" : "c5d9dd7d4c9e0a50.png",
+      "type" : "image/png",
+      "size" : 253409
+    }, {
+      "uid" : "cb1913adcdda0b5b",
+      "name" : "Клик по кнопке купить",
+      "source" : "cb1913adcdda0b5b.png",
+      "type" : "image/png",
+      "size" : 247491
+    }, {
+      "uid" : "3feb30b65ba2d76",
+      "name" : "Жмём по кнопке - Вернуться в магазин ",
+      "source" : "3feb30b65ba2d76.png",
+      "type" : "image/png",
+      "size" : 88643
+    }, {
+      "uid" : "eaae531bab7ea424",
+      "name" : "Скролл до выбранного товара",
+      "source" : "eaae531bab7ea424.png",
+      "type" : "image/png",
+      "size" : 258089
+    }, {
+      "uid" : "efd69578c217ffcd",
+      "name" : "Клик по кнопке купить",
+      "source" : "efd69578c217ffcd.png",
+      "type" : "image/png",
+      "size" : 250354
+    }, {
+      "uid" : "e3ad034fd660807a",
+      "name" : "Жмём Оформить заказ",
+      "source" : "e3ad034fd660807a.png",
+      "type" : "image/png",
+      "size" : 119756
+    }, {
+      "uid" : "13ede5428d93445d",
+      "name" : "Скролл до кнопки \"Заказать",
+      "source" : "13ede5428d93445d.png",
+      "type" : "image/png",
+      "size" : 95737
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "testClass",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Оформление заказа с двумя гаджетами в корзине"
+  }, {
+    "name" : "package",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "867a8f2aa3b932f4.json",
+  "parameterValues" : [ ]
+}

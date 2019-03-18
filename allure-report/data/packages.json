@@ -1,0 +1,105 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "EShop B2C Example tests",
+    "children" : [ {
+      "name" : "Проверка редиректа в корзину",
+      "uid" : "50d3ab3fa013f341",
+      "parentUid" : "bfb92d0749708d948f9ffb6068ca1049",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1552853762428,
+        "stop" : 1552853762428,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход в раздел гаджетов из основного меню",
+      "uid" : "29949ae7c22ee46f",
+      "parentUid" : "bfb92d0749708d948f9ffb6068ca1049",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1552853762428,
+        "stop" : 1552853762428,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Добавление одного гаджета в корзину",
+      "uid" : "cc75ef96c6b6126d",
+      "parentUid" : "bfb92d0749708d948f9ffb6068ca1049",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1552853762429,
+        "stop" : 1552853762429,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Добавление двух гаджетов в корзину",
+      "uid" : "f8d836cfef803ff7",
+      "parentUid" : "bfb92d0749708d948f9ffb6068ca1049",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1552853762429,
+        "stop" : 1552853762429,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка количества отображаемых гаджетов на странице",
+      "uid" : "f298300737407702",
+      "parentUid" : "bfb92d0749708d948f9ffb6068ca1049",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1552853762429,
+        "stop" : 1552853762429,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Добавленный в корзину гаджет имеет название кнопки - 'В корзине'",
+      "uid" : "c57d7e1ab6f120f7",
+      "parentUid" : "bfb92d0749708d948f9ffb6068ca1049",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1552853762429,
+        "stop" : 1552853762429,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Оформление заказа с двумя гаджетами в корзине",
+      "uid" : "867a8f2aa3b932f4",
+      "parentUid" : "bfb92d0749708d948f9ffb6068ca1049",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552853762429,
+        "stop" : 1552853784380,
+        "duration" : 21951
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка суммы добавленных товаров в корзину",
+      "uid" : "1e8de6b808ba1e2e",
+      "parentUid" : "bfb92d0749708d948f9ffb6068ca1049",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552853784380,
+        "stop" : 1552853790611,
+        "duration" : 6231
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bfb92d0749708d948f9ffb6068ca1049"
+  } ]
+}

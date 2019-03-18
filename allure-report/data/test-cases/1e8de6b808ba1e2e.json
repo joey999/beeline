@@ -1,0 +1,45 @@
+{
+  "uid" : "1e8de6b808ba1e2e",
+  "name" : "Проверка суммы добавленных товаров в корзину",
+  "fullName" : "EShop B2C Example tests.Проверка суммы добавленных товаров в корзину",
+  "historyId" : "dd25b49d6956dcced6aaae651589d3be",
+  "time" : {
+    "start" : 1552853784380,
+    "stop" : 1552853790611,
+    "duration" : 6231
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "testClass",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Проверка суммы добавленных товаров в корзину"
+  }, {
+    "name" : "package",
+    "value" : "EShop B2C Example tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e8de6b808ba1e2e.json",
+  "parameterValues" : [ ]
+}
