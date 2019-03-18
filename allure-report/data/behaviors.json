@@ -1,101 +1,113 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
-    "name" : "Проверка редиректа в корзину",
-    "uid" : "50d3ab3fa013f341",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1552853762428,
-      "stop" : 1552853762428,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Переход в раздел гаджетов из основного меню",
-    "uid" : "29949ae7c22ee46f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1552853762428,
-      "stop" : 1552853762428,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Добавление одного гаджета в корзину",
-    "uid" : "cc75ef96c6b6126d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1552853762429,
-      "stop" : 1552853762429,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Добавление двух гаджетов в корзину",
-    "uid" : "f8d836cfef803ff7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1552853762429,
-      "stop" : 1552853762429,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Проверка количества отображаемых гаджетов на странице",
-    "uid" : "f298300737407702",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1552853762429,
-      "stop" : 1552853762429,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Добавленный в корзину гаджет имеет название кнопки - 'В корзине'",
-    "uid" : "c57d7e1ab6f120f7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1552853762429,
-      "stop" : 1552853762429,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Оформление заказа с двумя гаджетами в корзине",
-    "uid" : "867a8f2aa3b932f4",
+    "name" : "1. Переход в раздел гаджетов из основного меню",
+    "uid" : "9073f35d378c43b8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1552853762429,
-      "stop" : 1552853784380,
-      "duration" : 21951
+      "start" : 1552877038218,
+      "stop" : 1552877066762,
+      "duration" : 28544
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Проверка суммы добавленных товаров в корзину",
-    "uid" : "1e8de6b808ba1e2e",
+    "name" : "2. Проверка редиректа в корзину",
+    "uid" : "9402596eb31432a1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1552853784380,
-      "stop" : 1552853790611,
-      "duration" : 6231
+      "start" : 1552877066763,
+      "stop" : 1552877089979,
+      "duration" : 23216
     },
     "flaky" : false,
     "parameters" : [ ]
-  } ]
+  }, {
+    "name" : "3. Добавление одного гаджета в корзину",
+    "uid" : "58856491c12ee275",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552877089980,
+      "stop" : 1552877113903,
+      "duration" : 23923
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "4. Добавление двух гаджетов в корзину",
+    "uid" : "f412896f8b467db2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552877113904,
+      "stop" : 1552877149861,
+      "duration" : 35957
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "5. Проверка количества отображаемых гаджетов на странице",
+    "uid" : "47241a768ded057a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552877149861,
+      "stop" : 1552877173743,
+      "duration" : 23882
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "6. Добавленный в корзину гаджет имеет название кнопки - 'В корзине'",
+    "uid" : "d768dc169491941b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552877173744,
+      "stop" : 1552877214974,
+      "duration" : 41230
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "7. Оформление заказа с двумя гаджетами в корзине",
+    "uid" : "150ee9ef49124f23",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552877214975,
+      "stop" : 1552877270794,
+      "duration" : 55819
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "8. Проверка суммы добавленных товаров в корзину",
+    "uid" : "e650fcdae52ffade",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552877270794,
+      "stop" : 1552877318142,
+      "duration" : 47348
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "9. Проверка суммы в корзине после удаления товара",
+    "uid" : "b6b2c8e0476cce3d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1552877318142,
+      "stop" : 1552877367271,
+      "duration" : 49129
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
 }

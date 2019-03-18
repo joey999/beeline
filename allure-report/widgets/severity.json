@@ -1,81 +1,91 @@
 [ {
-  "uid" : "c57d7e1ab6f120f7",
-  "name" : "Добавленный в корзину гаджет имеет название кнопки - 'В корзине'",
+  "uid" : "9073f35d378c43b8",
+  "name" : "1. Переход в раздел гаджетов из основного меню",
   "time" : {
-    "start" : 1552853762429,
-    "stop" : 1552853762429,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "f298300737407702",
-  "name" : "Проверка количества отображаемых гаджетов на странице",
-  "time" : {
-    "start" : 1552853762429,
-    "stop" : 1552853762429,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "cc75ef96c6b6126d",
-  "name" : "Добавление одного гаджета в корзину",
-  "time" : {
-    "start" : 1552853762429,
-    "stop" : 1552853762429,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "50d3ab3fa013f341",
-  "name" : "Проверка редиректа в корзину",
-  "time" : {
-    "start" : 1552853762428,
-    "stop" : 1552853762428,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "867a8f2aa3b932f4",
-  "name" : "Оформление заказа с двумя гаджетами в корзине",
-  "time" : {
-    "start" : 1552853762429,
-    "stop" : 1552853784380,
-    "duration" : 21951
+    "start" : 1552877038218,
+    "stop" : 1552877066762,
+    "duration" : 28544
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "29949ae7c22ee46f",
-  "name" : "Переход в раздел гаджетов из основного меню",
+  "uid" : "f412896f8b467db2",
+  "name" : "4. Добавление двух гаджетов в корзину",
   "time" : {
-    "start" : 1552853762428,
-    "stop" : 1552853762428,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "1e8de6b808ba1e2e",
-  "name" : "Проверка суммы добавленных товаров в корзину",
-  "time" : {
-    "start" : 1552853784380,
-    "stop" : 1552853790611,
-    "duration" : 6231
+    "start" : 1552877113904,
+    "stop" : 1552877149861,
+    "duration" : 35957
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f8d836cfef803ff7",
-  "name" : "Добавление двух гаджетов в корзину",
+  "uid" : "e650fcdae52ffade",
+  "name" : "8. Проверка суммы добавленных товаров в корзину",
   "time" : {
-    "start" : 1552853762429,
-    "stop" : 1552853762429,
-    "duration" : 0
+    "start" : 1552877270794,
+    "stop" : 1552877318142,
+    "duration" : 47348
   },
-  "status" : "skipped",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9402596eb31432a1",
+  "name" : "2. Проверка редиректа в корзину",
+  "time" : {
+    "start" : 1552877066763,
+    "stop" : 1552877089979,
+    "duration" : 23216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d768dc169491941b",
+  "name" : "6. Добавленный в корзину гаджет имеет название кнопки - 'В корзине'",
+  "time" : {
+    "start" : 1552877173744,
+    "stop" : 1552877214974,
+    "duration" : 41230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58856491c12ee275",
+  "name" : "3. Добавление одного гаджета в корзину",
+  "time" : {
+    "start" : 1552877089980,
+    "stop" : 1552877113903,
+    "duration" : 23923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "150ee9ef49124f23",
+  "name" : "7. Оформление заказа с двумя гаджетами в корзине",
+  "time" : {
+    "start" : 1552877214975,
+    "stop" : 1552877270794,
+    "duration" : 55819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6b2c8e0476cce3d",
+  "name" : "9. Проверка суммы в корзине после удаления товара",
+  "time" : {
+    "start" : 1552877318142,
+    "stop" : 1552877367271,
+    "duration" : 49129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47241a768ded057a",
+  "name" : "5. Проверка количества отображаемых гаджетов на странице",
+  "time" : {
+    "start" : 1552877149861,
+    "stop" : 1552877173743,
+    "duration" : 23882
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]
